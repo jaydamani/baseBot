@@ -2,7 +2,7 @@
   "name": "basebot",
   "version": "1.0.0",
   "description": "base bot to be used as sample",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "dependencies": {
     "@sapphire/framework": "^2.3.0",
     "dotenv": "^11.0.0"
+  },
+  "devDependencies": {
+    "@sapphire/ts-config": "^3.1.7"
   }
 }
