@@ -1,0 +1,22 @@
+{
+  "name": "basebot",
+  "version": "1.0.0",
+  "description": "base bot to be used as sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydamani/baseBot.git"
+  },
+  "author": "jaydamani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaydamani/baseBot/issues"
+  },
+  "homepage": "https://github.com/jaydamani/baseBot#readme",
+  "dependencies": {
+    "@sapphire/framework": "^2.3.0"
+  }
+}
