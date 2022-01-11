@@ -3,7 +3,7 @@ import { config } from 'dotenv'
 config()
 
 const client = new SapphireClient({
-  
+	intents: ['GUILDS'] 
 })
 
 client.login()
